@@ -2,8 +2,8 @@
 
 - `#include "vitis-power.hpp"`
 - Continuously read power on one thread (see Host code below)
-- Set `profile_power=true` for text file output in `power_profile.txt`.
-- Compile host code with OpenMP `-fopenmp` and link `vitis-power.hpp`.
+- Set `profile_power=true` for text file output in `power_profile.txt`
+- Compile host code with OpenMP `-fopenmp` and link `vitis-power.hpp`
 
 ## Host code
 

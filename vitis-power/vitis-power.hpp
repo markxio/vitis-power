@@ -41,11 +41,8 @@ class VCK5000 {
             while (!poison) {
                 std::map<std::string, double> vals;
                 for (auto const& x : labels) {
-                    //x.first x.second  
-                    
                     std::string filename = base + x.second;
                     std::vector<std::string> single_element = readFile(filename.c_str());
-                    //std::string key = fpga_keys[i];
                     vals[x.first] = std::stod(single_element[0]);
                 }
                 
